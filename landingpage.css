@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 10px;
+}
+.navbar li:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.topleft{
+    width: 50%;
+}
+.topright{
+    width: 50%;
+}
+.section1{
+    max-height: 100vh;
+    padding: 12px 0;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dumbellimg{
+    width: 170px;
+}
+.section2{
+padding: 63px;
+}
+.section2 h1{
+        font-size: 2.5rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.section3 h1{
+    font-size: 2.5rem;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid orangered;
+    border-radius: 8px;
+    text-align: center;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 12px 0;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.section3 span{
+    margin-left: 20rem;
+}
+footer{
+    padding: 23px;
+    font-weight: bolder;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    margin-left: 10rem;
+    margin-right: 40px;
+}
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+th{
+    padding:15px 5rem;  
+}
+ th,td{
+    border-bottom: 2px solid black;
+ }
